@@ -23,4 +23,4 @@ echo Установка зависимостей проекта...
 pip install -r https://raw.githubusercontent.com/QuoNaro/kgtt-bot-autoinstall/main/requirements.txt >/dev/null 2>&1
 
 # Создание конфига
-curl ./kgtt-bot-autoinstall/make-config.sh
+bash ./kgtt-bot-autoinstall/make-config.sh
