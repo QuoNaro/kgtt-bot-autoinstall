@@ -13,7 +13,7 @@ echo "Клонирование репозитория..."
 git clone https://github.com/QuoNaro/kgtt-bot.git >/dev/null 2>&1
 
 echo "Клонирование вспомогательного репозитория ..."
-git clone https://github.com/QuoNaro/kgtt-bot.git >/dev/null 2>&1
+git clone https://github.com/QuoNaro/kgtt-bot-autoinstall.git >/dev/null 2>&1
 
 # Создание виртуального окружения
 bash ./kgtt-bot-autoinstall/make-virtualenv.sh
