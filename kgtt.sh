@@ -19,8 +19,7 @@ git clone https://github.com/QuoNaro/kgtt-bot-autoinstall.git >/dev/null 2>&1
 bash ./kgtt-bot-autoinstall/make-virtualenv.sh
 
 
-echo Установка зависимостей проекта...
-pip install -r ./kgtt-bot-autoinstall/requirements.txt >/dev/null 2>&1
+
 
 # Создание конфига
 bash ./kgtt-bot-autoinstall/make-config.sh
