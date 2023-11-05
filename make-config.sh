@@ -3,8 +3,7 @@
 echo -n "Создать конфиг-файл ? [Y/n] "
 read item
 case "$item" in
-    y|Y) {
-
+    y|Y)
     # Создание конфига и запись его в файл config.py
     cd kgtt-bot/src
     read -p 'Введите токен для бота : ' token
@@ -35,10 +34,8 @@ case "$item" in
                 } 
                 " > config.py
 
-    cd ..
-    };;
+    cd ../..;;
 
     n|N) ;;
     *);;
-
 esac

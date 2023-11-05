@@ -24,3 +24,5 @@ pip install -r ./kgtt-bot-autoinstall/requirements.txt >/dev/null 2>&1
 
 # Создание конфига
 bash ./kgtt-bot-autoinstall/make-config.sh
+
+rm -rf ./kgtt-bot-autoinstall
