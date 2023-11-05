@@ -1,10 +1,8 @@
-sheet='1rGJ4_4BbSm0qweN7Iusz8d55e6uNr6bFRCv_j3W5fGU'
-reltime=120
 dbpath=$(pwd)/kgtt.sqlite
 echo "config = {
-'token'             : '$token'      ,
+'token'             : '1rGJ4_4BbSm0qweN7Iusz8d55e6uNr6bFRCv_j3W5fGU'      ,
 'table-id'          : '$sheet'      ,
-'table-reload-time' :  $reltime     ,
+'table-reload-time' :  120     ,
 'db-path'           : '$dbpath'     ,  
 } " > ./kgtt-bot/src/config.py
 
