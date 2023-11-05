@@ -9,10 +9,10 @@ echo "
 ╚═╝░░╚═╝░╚═════╝░░░░╚═╝░░░░░░╚═╝░░░
 "
 
-echo "Клонирование репозитория..."
+echo "Клонирование репозитория kgtt-bot"
 git clone https://github.com/QuoNaro/kgtt-bot.git >/dev/null 2>&1
 
-echo "Клонирование вспомогательного репозитория ..."
+echo "Клонирование вспомогательного репозитория kgtt-bot-autoinstall"
 git clone https://github.com/QuoNaro/kgtt-bot-autoinstall.git >/dev/null 2>&1
 
 # Создание виртуального окружения
@@ -20,7 +20,7 @@ bash ./kgtt-bot-autoinstall/make-virtualenv.sh
 
 
 echo Установка зависимостей проекта...
-pip install -r https://raw.githubusercontent.com/QuoNaro/kgtt-bot-autoinstall/main/requirements.txt >/dev/null 2>&1
+pip install -r ./kgtt-bot-autoinstall/requirements.txt >/dev/null 2>&1
 
 # Создание конфига
 bash ./kgtt-bot-autoinstall/make-config.sh
