@@ -18,8 +18,8 @@ git clone https://github.com/QuoNaro/kgtt-bot-autoinstall.git >/dev/null 2>&1
 # Создание виртуального окружения
 bash ./kgtt-bot-autoinstall/make-virtualenv.sh
 
-
-
+# Создание файлов для supervisor
+bash ./kgtt-bot-autoinstall/init-supervisor.sh
 
 # Создание конфига
 bash ./kgtt-bot-autoinstall/make-config.sh

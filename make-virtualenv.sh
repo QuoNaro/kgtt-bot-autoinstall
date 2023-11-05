@@ -8,7 +8,7 @@ done
 
 
 python -m virtualenv >/dev/null 2>&1
-if [ $? -eq 2 ]
+if [ $? -eq 2 ];
 then
     echo "Виртуальное окружение установлено"
 else
@@ -21,12 +21,13 @@ else
     fi
 fi
 
-
 echo Создание виртуального окружения...
 python3 -m virtualenv .venv >/dev/null 2>&1
 
 echo Активация виртуального окружения...
-source .venv/bin/activate >/dev/null 2>&1
+source ./.venv/bin/activate >/dev/null 2>&1
 
 echo Установка зависимостей проекта...
-pip install -r ./kgtt-bot-autoinstall/requirements.txt >/dev/null 2>&1
+python3 -m pip install -r ./kgtt-bot-autoinstall/requirements.txt >/dev/null 2>&1
+
+
