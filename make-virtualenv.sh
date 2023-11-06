@@ -1,5 +1,5 @@
-ls .venv >/dev/null 2>&1
-if [ $? -ne 0 ];then
+
+if [ -d .venv ];then
     echo Создание виртуального окружения...
     python3 -m virtualenv .venv >/dev/null 2>&1
     if [ $? -ne 0 ];then
