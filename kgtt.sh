@@ -24,4 +24,7 @@ bash ./kgtt-bot-autoinstall/init-supervisor.sh
 # Создание конфига
 bash ./kgtt-bot-autoinstall/make-config.sh
 
+# Создание пустой базы данных
+bash ./kgtt-bot-autoinstall/make-empty-db.sh
+
 rm -rf ./kgtt-bot-autoinstall
